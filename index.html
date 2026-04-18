@@ -61,6 +61,92 @@
         <p><input type="submit" value="Enviar" tabindex="9"><input type="reset" tabindex="10"></p>
       </form>
     </article>
+    <article>
+      <header>
+        <h2>Formulario 2</h2>
+        <p>Registrar el robo de la bicicleta</p>
+      </header>
+      <form action="">
+        <fieldset label="Momento del robo">
+          <p>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" tabindex="11">
+          </p>
+          <p>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" tabindex="12">
+          </p>
+        </fieldset>
+        <fieldset label="Características de la bicicleta robada">
+          <p>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color" tabindex="13">
+          </p>
+          <p>
+            <label for="precio">Precio:</label>
+            <input type="range" id="precio" name="precio" tabindex="14">
+          </p>
+          <p>
+            <label for="tipo">Tipo:</label>
+            <select id="tipo" name="tipo" tabindex="15">
+              <optgroup label="Urbana">
+                <option value="clasica">Clásica</option>
+                <option value="plegable">Plegable</option>
+                <option value="electrica">Eléctrica</option>
+                <option value="commuter">Commuter</option>
+              </optgroup>
+              <optgroup label="Montaña">
+                <option value="sport">Sport</option>
+                <option value="trail">Trail o Hard Trail</option>
+                <option value="xc">XC o Cross Country</option>
+              </optgroup>
+              <optgroup label="Carreras">
+                <option value="gran-fondo">Gran Fondo</option>
+                <option value="racing">Racing</option>
+                <option value="aero">Aero</option>
+              </optgroup>
+            </select>
+          </p>
+          <p>
+            <label for="accesorios">Accesorios:</label>
+            <select id="accesorios" name="accesorios" multiple tabindex="16">
+              <option value="ruedines">Ruedines</option>
+              <option value="hinchadores">Hinchadores</option>
+              <option value="bomba-aire">Bomba de aire</option>
+              <option value="alforja">Alforja</option>
+              <option value="silla-portabebes">Silla portabebés</option>
+            </select>
+          </p>
+          <p>
+            <label for="marca">Marca:</label>
+            <input list="marca-datalist" id="marca" name="marca" tabindex="17">
+            <datalist id="marca-datalist">
+              <option value="specialized">Specialized</option>
+              <option value="trek">Trek</option>
+              <option value="merida">Merida</option>
+              <option value="scott">Scott</option>
+              <option value="giant">Giant</option>
+              <option value="cube">Cube</option>
+              <option value="lapierre">Lapierre</option>
+              <option value="orbea">Orbea</option>
+              <option value="cannondale">Cannondale</option>
+              <option value="bmc">BMC</option>
+              <option value="canyon">Canyon</option>
+              <option value="look">Look</option>
+              <option value="protek">Protek</option>
+              <option value="megamo">Megamo</option>
+              <option value="pinarello">Pinarello</option>
+              <option value="bianchi">Bianchi</option>
+              <option value="bh">BH</option>
+              <option value="factor">Factor</option>
+              <option value="ghost">Ghost</option>
+              <option value="cervelo">Cervélo</option>
+              <option value="argon">Argon</option>
+            </datalist>
+          </p>
+        </fieldset>
+      </form>
+    </article>
   </section>
 </body>
 
